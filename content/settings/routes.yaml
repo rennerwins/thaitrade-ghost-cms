@@ -2,7 +2,7 @@ routes:
 
 collections:
   /:
-    permalink: /{slug}/
+    permalink: /press-releases/{slug}/
     template: index
 
 taxonomies:
