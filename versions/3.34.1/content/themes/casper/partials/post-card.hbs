@@ -5,21 +5,24 @@
     </a>
   </div>
 
-  <div class="post-card__caption-wrapper">
-    <p class="post-card__caption">
-      <a class="post-card__caption-link" href="{{url}}">
-        {{title}}
+  <div>
+
+    <div class="post-card__caption-wrapper">
+      <p class="post-card__caption">
+        <a class="post-card__caption-link" href="{{url}}">
+          {{title}}
+        </a>
+      </p>
+    </div>
+
+    <div>
+      <time class="post-card__date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMM DD, YYYY"}}</time>
+    </div>
+
+    <div>
+      <a class="post-card__read-more" href="{{url}}">
+        <span class="pr-1">Read More</span> <span class="fa fa-angle-right"></span>
       </a>
-    </p>
-  </div>
-
-  <div>
-    <time class="post-card__date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMM DD, YYYY"}}</time>
-  </div>
-
-  <div>
-    <a class="post-card__read-more" href="{{url}}">
-      <span class="pr-1">Read More</span> <span class="fa fa-angle-right"></span>
-    </a>
+    </div>
   </div>
 </article>

@@ -1,9 +1,19 @@
 .post-card__wrapper {
-  height: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-card__image-wrapper {
+  flex: 1;
 }
 
 .post-card__image {
   border: 1px solid #eee;
+  height: 100%;
+  object-fit: cover;
+  /* max-height: 180px; */
 }
 
 .post-card__caption-wrapper {
